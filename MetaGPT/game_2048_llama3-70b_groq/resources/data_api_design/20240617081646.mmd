@@ -1,0 +1,30 @@
+
+classDiagram
+    class Game {
+        -board: list[list[int]]
+        -score: int
+        -difficulty: str
+        +__init__(difficulty: str)
+        +start_game()
+        +move_up()
+        +move_down()
+        +move_left()
+        +move_right()
+        +get_score()
+    }
+    class UI {
+        -game: Game
+        +__init__(game: Game)
+        +display_board()
+        +display_score()
+        +handle_events()
+    }
+    class GameAlgorithm {
+        -game: Game
+        +__init__(game: Game)
+        +generate_tile()
+        +check_game_over()
+        +update_score()
+    }
+    Game --> UI
+    Game --> GameAlgorithm

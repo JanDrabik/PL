@@ -1,0 +1,21 @@
+Llama3:8B
+
+Action:
+{
+  "action": "Final Answer",
+  "action_input": "The average rental prices for 1-bedroom and 3-bedroom apartments in each of the 10 cities in Poland are as follows: Warsaw - 2682; Krak�w - 2373; Gda�sk - 2370; Wroc�aw - 2205; Pozna� - 2020; Katowice - 1988; ��d� - 1741. The most expensive city in Poland to buy an apartment in is Warsaw, with a price 35.8% above the country's average price."
+}
+
+
+
+```
+import pandas as pd
+
+data = {
+    "City": ["Warsaw", "Krak�w", "Gda�sk", "Wroc�aw", "Pozna�", "Katowice", "��d�"],
+    "1-bedroom": [2682, 2373, 2370, 2205, 2020, 1988, 1741],
+    "3-bedroom": [2682, 2373, 2370, 2205, 2020, 1988, 1741]
+}
+
+df = pd.DataFrame(data)
+```

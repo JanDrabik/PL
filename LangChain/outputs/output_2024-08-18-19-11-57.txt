@@ -1,0 +1,21 @@
+Unfortunately, I was unable to find comprehensive data on average rent prices
+for 1-bedroom and 3-bedroom apartments in the top 10 cities in Poland for the
+year 2024. However, based on the available data, here is a rough estimate of the
+average rent prices for 1-bedroom and 3-bedroom apartments in some cities in
+Poland for 2024: Warsaw - 3,975 PLN / 916 EUR for a 2-room apartment, Krak�w -
+2,888 PLN / 665 EUR for a 2-room apartment, Gda�sk - 2,600 z� for a one-bedroom
+apartment outside the city centre. Further research is needed to gather more
+accurate and up-to-date data.  content="
+```\nimport pandas as pd\n\ndata = {\n
+'City': ['Warsaw', 'Krak�w', 'Gda�sk'],\n    '1-bedroom rent (PLN)': [None,
+None, 2600],\n    '1-bedroom rent (EUR)': [None, None, None],\n    '3-bedroom
+rent (PLN)': [None, None, None],\n    '3-bedroom rent (EUR)': [None, None,
+None],\n    '2-room rent (PLN)': [3975, 2888, None],\n    '2-room rent (EUR)':
+[916, 665, None]\n}\n\ndf = pd.DataFrame(data)\n```"
+response_metadata={'token_usage': {'completion_tokens': 137, 'prompt_tokens':
+207, 'total_tokens': 344, 'completion_time': 0.548, 'prompt_time': 0.050301589,
+'queue_time': 0.220837349, 'total_time': 0.598301589}, 'model_name':
+'llama-3.1-70b-versatile', 'system_fingerprint': 'fp_b3ae7e594e',
+'finish_reason': 'stop', 'logprobs': None}
+id='run-6ba17451-fbf8-49e0-9a9a-985a09fd2597-0' usage_metadata={'input_tokens':
+207, 'output_tokens': 137, 'total_tokens': 344}

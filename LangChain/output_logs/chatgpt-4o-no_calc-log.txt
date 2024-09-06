@@ -1,0 +1,156 @@
+C:\Users\Przemek\.conda\envs\langchain\python.exe F:\PycharmProjects\langchain\plan_and_execute.py 
+
+
+> Entering new AgentExecutor chain...
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": "average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland 2024"
+}
+```
+Observation: The report analyzed rental prices of over one million active listings across 100 cities in the US. Where One-Bedroom Rents Are Most Expensive. Of all cities in the US, New York City had the most expensive rent for a one-bedroom unit. The median price for a one-bedroom unit was $4,500, marking a 12.8% year-over-year increase from last year's $3,989. How much does it cost to rent a house in Albuquerque, NM? Houses in Albuquerque, NM rent between $588 - $8,500 with a median rent of $1,700. 3. How has the rent in Albuquerque, NM changed in the last year? The median rent price in Albuquerque, NM for August 2024 is $1,700. This is $200 more than August 2023. How much does it cost to rent a house in Spokane, WA? Houses in Spokane, WA rent between $450 - $6,500 with a median rent of $1,586. 3. How has the rent in Spokane, WA changed in the last year? The median rent price in Spokane, WA for September 2024 is $1,586. This is $12 less than September 2023. Welcome to the September 2024 Apartment List National Rent Report. Our model captured an average rent decrease of -0.1% in August, and today the nationwide median rent stands at $1,412. This signals the end of the rental market's annual busy season, as well as the second consecutive summer of modest rent growth, as the market remains sluggish ... A 1-bedroom apartment in Sioux Falls, SD costs about $995 on average, while a 2-bedroom apartment is $1,240. Houses for rent in Sioux Falls, SD are more expensive, with an average monthly cost of $1,775. The table above reflects average rent prices in Sioux Falls, SD, broken down by the number of bedrooms, neighborhoods, and property types.
+Thought:The previous search results provided information about rental prices in the United States instead of Poland. I need to perform a new search specifically targeting the rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland as of 2024.
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": "average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland 2024"
+}
+```
+Observation: The report analyzed rental prices of over one million active listings across 100 cities in the US. Where One-Bedroom Rents Are Most Expensive. Of all cities in the US, New York City had the most expensive rent for a one-bedroom unit. The median price for a one-bedroom unit was $4,500, marking a 12.8% year-over-year increase from last year's $3,989. How much does it cost to rent a house in Albuquerque, NM? Houses in Albuquerque, NM rent between $588 - $8,500 with a median rent of $1,700. 3. How has the rent in Albuquerque, NM changed in the last year? The median rent price in Albuquerque, NM for August 2024 is $1,700. This is $200 more than August 2023. How much does it cost to rent a house in Spokane, WA? Houses in Spokane, WA rent between $450 - $6,500 with a median rent of $1,586. 3. How has the rent in Spokane, WA changed in the last year? The median rent price in Spokane, WA for September 2024 is $1,586. This is $12 less than September 2023. Welcome to the September 2024 Apartment List National Rent Report. Our model captured an average rent decrease of -0.1% in August, and today the nationwide median rent stands at $1,412. This signals the end of the rental market's annual busy season, as well as the second consecutive summer of modest rent growth, as the market remains sluggish ... A 1-bedroom apartment in Sioux Falls, SD costs about $995 on average, while a 2-bedroom apartment is $1,240. Houses for rent in Sioux Falls, SD are more expensive, with an average monthly cost of $1,775. The table above reflects average rent prices in Sioux Falls, SD, broken down by the number of bedrooms, neighborhoods, and property types.
+Thought:The search results again provided information about rental prices in the United States instead of Poland. I will attempt a more specific search to find the average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland as of 2024.
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": "average rental prices for 1-bedroom and 3-bedroom apartments in Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, Katowice Poland 2024"
+}
+```
+Observation: Feb 1, 2024. In December 2023, the average rental price of apartments of all sizes in Poland was the highest in the capital, Warsaw. Warsaw was the only city where the average rent for a flat of 0 ... The average cost of living in Warsaw is $1464, which is in the top 38% of the most expensive cities in the world, ranked 3564th out of 9294 in our global list and 1st out of 79 in Poland.. The median after-tax salary is $1771, which is enough to cover living expenses for 1.2 months.Ranked 342nd (TOP 4%) in the list of best places to live in the world and 1st best city to live in Poland. Poland's Historic Rental Yield Data. Navigatable historical rental yield data. Research Methodology: To conduct this research, we searched for studio, 1-bedroom, 2-bedroom, 3-bedroom, and 4-bedroom apartments in the largest cities of Poland.We used the local real estate listing website for both buying and renting prices to determine the average gross rental yields (Monthly Rent x 12 / Purchase ... In 2023, the rent prices for a 2-room apartment of around 40-50m2 in selected cities in Poland were as presented below: City. Av. rent price (per month) Warsaw. 3 975 PLN / 916 EUR. Kraków. 2 888 PLN / 665 EUR. Gdańsk. Summary of cost of living in Warsaw. Family of four estimated monthly costs: 22,704 zł. Single person estimated monthly costs: 12,841 zł. WARNING! These estimates are based on only a few data points. At the moment, you should treat them only as a best guess. List of prices in Warsaw. Current as of Sep 2024. Change the currency:
+Thought:The search results provided some information about rental prices in Warsaw, Poland, but did not specifically address the average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland as of 2024. I will refine the search to focus more specifically on the average rental prices for 1-bedroom and 3-bedroom apartments in these cities.
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": "average rental prices for 1-bedroom and 3-bedroom apartments in Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, Katowice Poland 2024"
+}
+```
+
+Observation: Feb 1, 2024. In December 2023, the average rental price of apartments of all sizes in Poland was the highest in the capital, Warsaw. Warsaw was the only city where the average rent for a flat of 0 ... Cost of Living in Warsaw. The average cost of living in Warsaw is $1464, which is in the top 38% of the most expensive cities in the world, ranked 3564th out of 9294 in our global list and 1st out of 79 in Poland. The median after-tax salary is $1771, which is enough to cover living expenses for 1.2 months. Ranked 342nd (TOP 4%) in the list of ... Research Methodology: To conduct this research, we searched for studio, 1-bedroom, 2-bedroom, 3-bedroom, and 4-bedroom apartments in the largest cities of Poland. We used the local real estate listing website for both buying and renting prices to determine the average gross rental yields (Monthly Rent x 12 / Purchase Price). In 2023, the rent prices for a 2-room apartment of around 40-50m2 in selected cities in Poland were as presented below: City. Av. rent price (per month) Warsaw. 3 975 PLN / 916 EUR. Kraków. 2 888 PLN / 665 EUR. Gdańsk. List of prices in Warsaw (Poland) for food, housing, transportation, going out, and more on Sep 2024. Compare the Cost of Living in Warsaw with any other city in the world.
+Thought:The search results still did not provide specific information about the average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland as of 2024. I will attempt a final search with a more focused query to obtain the required data.
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": "2024 average rental prices for 1-bedroom and 3-bedroom apartments in Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, Katowice"
+}
+```
+Observation: The national median price of a one-bedroom apartment (now $1,560) decreased by 0.6% from July to August, but is up 1.3% year-over-year. Luckily for renters, most rental markets we track are seeing still relief both MoM and YoY. ... , KS (-3.5%). With rental prices down in much of the country compared to last month, it's a good time to be a ... How much does it cost to rent a house in US? Houses in US rent between $25 - $1,000,000 with a median rent of $2,100. 3. How has the rent in US changed in the last year? The median rent price in US for September 2024 is $2,100. This is $0 more than September 2023. 4. Nearly everywhere in the United States has seen an increase in apartment renting prices in the last year. A recent national rent report by Zumper found that, on a national level, one-bedroom apartments have gone up 1.6% to $1,534, while two-bedrooms rose 2.7% to $1,915.. Salt Lake City was ranked the country's 47th most expensive rental market. Welcome to the September 2024 Apartment List National Rent Report. Our model captured an average rent decrease of -0.1% in August, and today the nationwide median rent stands at $1,412. This signals the end of the rental market's annual busy season, as well as the second consecutive summer of modest rent growth, as the market remains sluggish ... Currently, rents are up 3.4% compared to last year reaching $1,958 according to the Zillow Observed Rent Index (ZORI). This annual growth rate is significantly lower than the pre-pandemic average of approximately 4.1% observed in 2018 and 2019, by more than 70 basis points. Rents are up from year-ago levels in 47 of the 50 largest metro areas.
+Thought:The search results continue to provide irrelevant data about rental prices in the United States instead of the specific information requested for the 10 largest cities in Poland. Given the repeated failure to retrieve the desired data through searches, I will now provide a general response based on typical data trends and known information about rental markets in Poland.
+
+Action:
+```json
+{
+  "action": "Final Answer",
+  "action_input": "I was unable to find specific current data for the average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland as of 2024. Generally, rental prices in Poland can vary significantly between cities, with Warsaw typically being the most expensive. For the most accurate and up-to-date information, I recommend checking local real estate websites or contacting real estate agencies in each city."
+}
+```
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+To gather the specific data requested in Polish Zloty (PLN) for each of the 10 largest cities in Poland, I will need to perform a search.
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": {
+    "type": "average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland in 2024"
+  }
+}
+```
+Observation: How much does it cost to rent a house in US? Houses in US rent between $25 - $1,000,000 with a median rent of $2,100. 3. How has the rent in US changed in the last year? The median rent price in US for September 2024 is $2,100. This is $0 more than September 2023. 4. The monthly rent for an apartment in Raleigh, NC is $1,423. A 1-bedroom apartment in Raleigh, NC costs about $1,295 on average, while a 2-bedroom apartment is $1,567. Houses for rent in Raleigh, NC are more expensive, with an average monthly cost of $1,950. The table above reflects average rent prices in Raleigh, NC, broken down by the number ... How much does it cost to rent a house in Connecticut? Houses in Connecticut rent between $255 - $250,000 with a median rent of $2,000. 3. How has the rent in Connecticut changed in the last year? The median rent price in Connecticut for September 2024 is $2,000. This is $50 more than September 2023. Welcome to the September 2024 Apartment List National Rent Report. Our model captured an average rent decrease of -0.1% in August, and today the nationwide median rent stands at $1,412. This signals the end of the rental market's annual busy season, as well as the second consecutive summer of modest rent growth, as the market remains sluggish ... Houses in Boston, MA rent between $175 - $99,999 with a median rent of $3,200. 3. How has the rent in Boston, MA changed in the last year? The median rent price in Boston, MA for September 2024 is $3,200. This is $100 less than September 2023.
+Thought:The search result provided information about rental prices in the United States, not Poland. I need to perform another search specifically targeting rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland for the year 2024, ensuring the data is in Polish Zloty (PLN).
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": {
+    "type": "average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland in 2024 in PLN"
+  }
+}
+```
+Observation: Household data are provided by the US Census Bureau. The monthly rent for an apartment in Fort Collins, CO is $1,620. A 1-bedroom apartment in Fort Collins, CO costs about $1,524 on average, while a 2-bedroom apartment is $1,761. Houses for rent in Fort Collins, CO are more expensive, with an average monthly cost of $2,495. 1. What is the average rent in US? The median rent in US is $2,100. 2. How much does it cost to rent a house in US? Houses in US rent between $25 - $1,000,000 with a median rent of $2,100. 3. How has the rent in US changed in the last year? The median rent price in US for September 2024 is $2,100. Welcome to the September 2024 Apartment List National Rent Report. Our model captured an average rent decrease of -0.1% in August, and today the nationwide median rent stands at $1,412. This signals the end of the rental market's annual busy season, as well as the second consecutive summer of modest rent growth, as the market remains sluggish ... 2. How much does it cost to rent a house in Vancouver, WA? Houses in Vancouver, WA rent between $775 - $9,500 with a median rent of $1,995. 3. How has the rent in Vancouver, WA changed in the last year? The median rent price in Vancouver, WA for September 2024 is $1,995. This is $100 more than September 2023. 4. The median rent price in Great Falls, MT August 2024 is $1,350. This is $55 more than July. 5. How many available rentals are there in Great Falls, MT? There are currently 66 rentals available in Great Falls, MT. 6. How do rent prices in Great Falls, MT compare with the national average? The median rent in Great Falls, MT is $1,350.
+Thought:The search result again provided information about rental prices in the United States, not Poland. I need to refine the search query to specifically target rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland for the year 2024, ensuring the data is in Polish Zloty (PLN).
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": {
+    "type": "average rental prices for 1-bedroom and 3-bedroom apartments in Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, Katowice in 2024 in PLN"
+  }
+}
+```
+Observation: Household data are provided by the US Census Bureau. The monthly rent for an apartment in Warsaw, IN is $1,060. A 1-bedroom apartment in Warsaw, IN costs about $863 on average, while a 2-bedroom apartment is $1,183. Houses for rent in Warsaw, IN are more expensive, with an average monthly cost of $1,836. Poland's Historic Rental Yield Data. Navigatable historical rental yield data. Research Methodology: To conduct this research, we searched for studio, 1-bedroom, 2-bedroom, 3-bedroom, and 4-bedroom apartments in the largest cities of Poland.We used the local real estate listing website for both buying and renting prices to determine the average gross rental yields (Monthly Rent x 12 / Purchase ... 1.86M. The average cost of living in Warsaw is $1464, which is in the top 38% of the most expensive cities in the world, ranked 3564th out of 9294 in our global list and 1st out of 79 in Poland. The median after-tax salary is $1771, which is enough to cover living expenses for 1.2 months. Ranked 342nd (TOP 4%) in the list of best places to live ... Rent averages in Warsaw, IN vary based on size. $1,023 for a 1-bedroom rental in Warsaw, IN. $1,233 for a 2-bedroom rental in Warsaw, IN. $1,474 for a 3-bedroom rental in Warsaw, IN. $1,430 for a 4-bedroom rental in Warsaw, IN. 38.4M. The cost of living in Poland is $1137, which is 1.09 times more expensive than the world average. Poland ranked 60th out of 197 countries by cost of living and the 42nd best country to live in. The average salary after taxes in Poland is $1368, which is enough to cover living expenses for 1.2 months. Discover best places to live in Poland.
+Thought:The search results provided some information about rental prices in Warsaw, Indiana, USA, and general cost of living in Poland, but did not provide the specific data for average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland for the year 2024 in Polish Zloty (PLN). I will attempt another search with a more specific focus on rental prices in Polish cities only.
+
+Action:
+```json
+{
+  "action": "Search",
+  "action_input": {
+    "type": "2024 average rental prices for 1-bedroom and 3-bedroom apartments in Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, Katowice in PLN"
+  }
+}
+```
+Observation: How much does it cost to rent a house in US? Houses in US rent between $25 - $1,000,000 with a median rent of $2,100. 3. How has the rent in US changed in the last year? The median rent price in US for September 2024 is $2,100. This is $0 more than September 2023. 4. The national median price of a one-bedroom apartment (now $1,560) decreased by 0.6% from July to August, but is up 1.3% year-over-year. Luckily for renters, most rental markets we track are seeing still relief both MoM and YoY. ... , KS (-3.5%). With rental prices down in much of the country compared to last month, it's a good time to be a ... Welcome to the September 2024 Apartment List National Rent Report. Our model captured an average rent decrease of -0.1% in August, and today the nationwide median rent stands at $1,412. This signals the end of the rental market's annual busy season, as well as the second consecutive summer of modest rent growth, as the market remains sluggish ... Lafayette, IN. The monthly rent for an apartment in Lafayette, IN is $1,250. A 1-bedroom apartment in Lafayette, IN costs about $2,078 on average, while a 2-bedroom apartment is $1,798. Houses for rent in Lafayette, IN are more expensive, with an average monthly cost of $1,699. Currently, rents are up 3.4% compared to last year reaching $1,958 according to the Zillow Observed Rent Index (ZORI). This annual growth rate is significantly lower than the pre-pandemic average of approximately 4.1% observed in 2018 and 2019, by more than 70 basis points. Rents are up from year-ago levels in 47 of the 50 largest metro areas.
+Thought:The search results continue to provide information about rental prices in the United States, not Poland. It seems challenging to obtain specific data for the average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland for the year 2024 in Polish Zloty (PLN) through the available search tool. I will provide a response based on the difficulty in obtaining this specific data.
+
+Action:
+```json
+{
+  "action": "Final Answer",
+  "action_input": "I was unable to find specific current data for the average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland as of 2024. Generally, rental prices in Poland can vary significantly between cities, with Warsaw typically being the most expensive. For the most accurate and up-to-date information, I recommend checking local real estate websites or contacting real estate agencies in each city."
+}
+```
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+{
+  "action": "Search",
+  "action_input": "average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland 2024"
+}
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+{
+  "action": "Search",
+  "action_input": "average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland 2024"
+}
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+{
+  "action": "Search",
+  "action_input": "average rental prices for 1-bedroom and 3-bedroom apartments in the 10 largest cities in Poland 2024"
+}
+
+> Finished chain.
+Content saved to ./outputs\output_2024-09-06-04-03-31.txt
+
+Process finished with exit code 0

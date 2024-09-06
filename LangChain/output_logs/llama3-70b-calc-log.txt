@@ -1,0 +1,372 @@
+C:\Users\Przemek\.conda\envs\langchain\python.exe F:\PycharmProjects\langchain\plan_and_execute.py 
+
+
+> Entering new AgentExecutor chain...
+Question: What are reliable sources for apartment rental prices in Poland?
+
+Thought: I need to find reliable sources for apartment rental prices in Poland.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "reliable sources for apartment rental prices in Poland"
+}
+```
+
+Observation: Renting an apartment in Poland - a complete guide. Find out about prices, contract types and popular online property portals. The most cities recorded a decrease in prices. Read more Average monthly apartment rental prices in selected cities in Poland from 2019 to 2023 (in zloty) Buy to let in Poland is a great choice for investors who wish to generate a steady income. The number of foreigners buying apartments in Poland reached an all-time high in 2022. Indeed, foreigners purchased 14,359 apartment units in that year. In 2023, foreigners bought 14,346 apartments in Poland. Research Methodology: To conduct this research, we searched for studio, 1-bedroom, 2-bedroom, 3-bedroom, and 4-bedroom apartments in the largest cities of Poland. We used the local real estate listing website for both buying and renting prices to determine the average gross rental yields (Monthly Rent x 12 / Purchase Price). A Breakdown of the Cost of Living per month in Poland *The cost of living estimates I provide in this post are for a couple with a teenage child. Let me begin with the area of apartment rental in Poland.
+Thought:Question: What are reliable sources for apartment rental prices in Poland?
+
+Thought: I need to find reliable sources for apartment rental prices in Poland.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "reliable sources for apartment rental prices in Poland Numbeo"
+}
+```
+
+Observation: > Apartment (1 bedroom) Outside of Centre (Rent Per Month) > Europe. Europe: Prices by City of Apartment (1 bedroom) Outside of Centre (Rent Per Month) See bar chart of these data. ... 2024 02:52 AM, CDT Data Source: Numbeo contributors and official sources Based on data collected within the last 12 months. About In the News Newsletter API. Prices by Country of Apartment (1 bedroom) Outside of Centre (Rent Per Month) This page allows you to see current prices by country. You can see prices only for countries with a decent number of contributors. See bar chart of these data. 50.5 50.5 2,024.29 2,024.29. Chart: Apartment (1 bedroom) Outside of Centre, Rent Per Month. Currency: Search: As of August 7, 2024, the average rent per month for a one-bedroom apartment outside the city centre of Gdańsk is around 2,600 zł (Numbeo). Frankly, I'd like to put that figure to the test by checking out the cost of renting apartments on Otodom. Otodom is the most well-known online property portal in Poland. > Apartment (3 bedrooms) in City Centre (Rent Per Month) > Eastern Europe. Eastern Europe: Prices by City of Apartment (3 bedrooms) in City Centre (Rent Per Month) ... August 21, 2024 08:12 AM, CDT Data Source: Numbeo contributors and official sources Based on data collected within the last 12 months. About In the News Newsletter API. In 2023, the rent prices for a 2-room apartment of around 40-50m2 in selected cities in Poland were as presented below: City. Av. rent price (per month) Warsaw. 3 975 PLN / 916 EUR. Kraków. 2 888 PLN / 665 EUR. Gdańsk.
+Thought:Thought: I have found some reliable sources for apartment rental prices in Poland, including Numbeo and Otodom.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "other real estate websites that provide up-to-date data for 2024"
+}
+```
+
+Observation: The number of homes actively for sale continues to be elevated compared with last year, growing by 35.8%, a 10th straight month of growth, and now sits at the highest since May 2020. Trulia, purchased by Zillow for $2.5 billion in 2015, has the power of the largest real estate website behind it. It typically updates listing information within 24 hours. As good as the app is ... Best for finding a real estate agent: HomeLight. According to 2023 data from the National Association of Realtors®, 89% of sellers and 89% of buyers enlisted the services of a real estate agent in their journey. However, with there being over 3 million active real estate licensees in the U.S., it can be challenging to know who to hire. 5. Best Real Estate Website - Trulia.com. Trulia is a consumer brand of the Zillow Group. The company goes beyond the typical listings, by sourcing insights straight from locals and offering over 34 neighborhood map overlays, to give people a deeper understanding of what living in a home and neighborhood is like. Here are the best real estate websites for buying or selling a home online in 2024: 🏆 Zillow: Best Overall for Most Listings. BiggerPockets: Best Real Estate Community. Realtor: Best for Finding a Realtor. Trulia: Best Mobile App. Homes.com: Best for Finding a Home's Value. Apartments.com: Best for Rental Properties.
+Thought:Thought: I need to find other reliable real estate websites that provide up-to-date data for 2024, in addition to Numbeo and Otodom.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "Poland real estate websites 2024"
+}
+```
+
+
+Observation: Top Real Estate Websites in Poland Ranking Analysis for July 2024. otodom.pl ranked number 1 and is the most visited Real Estate website in Poland in July 2024, followed by nieruchomosci-online.pl as the runner up, and adresowo.pl ranking at 3rd place as the leaders of the Real Estate websites in Poland. The Real Estate Guide Poland 2024 is a unique report created by the EY's Real Estate Market Group experts, focusing on key trends and market forecasts across all sectors, along with an extensive presentation of the most important changes related to taxes, law, and auditing, affecting players in the real estate market. This year&#39;s edition discusses the importance of sustainable ... 25 Best Poland Real Estate Blogs ⋅ 1. Knight Frank Blog ⋅ 2. Property News Poland ⋅ 3. Colliers Poland Blog ⋅ 4. Avison Young Poland ⋅ 5. Real Estate Magazine Poland The current demand for residential real estate in Poland is influenced by several factors, creating a dynamic market environment. Understanding the balance between buyers and sellers, the supply of new housing, buyer preferences, interest rates, and government policies is key to grasping the nuances of this market. Overview of the Real Estate Market in Poland 2024. The Polish real estate market in 2024 presents a robust environment for property investment, characterized by dynamic market trends and promising opportunities. Poland's economy, resilient after the global financial crisis, continues to grow, making it an attractive destination for investors. ...
+Thought:Thought: I have found some reliable sources for apartment rental prices in Poland, including Numbeo, Otodom, and other real estate websites that provide up-to-date data for 2024.
+
+Action:
+```
+{
+  "action": "Final Answer",
+  "action_input": "Reliable sources for apartment rental prices in Poland include Numbeo, Otodom, and other real estate websites such as Trulia, HomeLight, and Poland-specific websites like otodom.pl, nieruchomosci-online.pl, and adresowo.pl, which provide up-to-date data for 2024."
+}
+```
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+Question: What are the 10 biggest cities in Poland by population?
+
+Thought: I need to find the population data for cities in Poland.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "Largest cities in Poland by population"
+}
+```
+
+Observation: Map of Poland. This is a list of cities and towns in Poland, consisting of four sections: ... Largest cities and towns by population. Poland contains: 1 city over 1,000,000; 4 cities from 500,000 to 999,999: 6 cities from 250,000 to 499,999: 26 cities from 100,000 to 249,999: Population of the largest cities of Poland 2023. Published by. Adriana Sas, Jul 24, 2024. The largest city in Poland in terms of population was the capital, Warsaw, in 2023, with more than 1.86 ... 25 cities and 69 towns from 25,000 to 49,999. 221 towns from 10,000 do 24,999. 187 towns from 5,000 to 9,999. 220 towns from 2,500 to 4,999. 140 towns from 1,000 to 2,499. 9 towns below 1,000. Below is a table of the most populated cities and towns in Poland. The table ranks cities by population based on data from the Central Statistical Office ... Aug 8, 2024. This statistic shows the biggest cities in Poland in 2021. In 2021, approximately 1.86 million people lived in Warsaw, making it the biggest city in Poland. Read more. Poland: The ... Population statistics in maps and charts for provinces, counties, cities, towns, communes, localities and city districts in Poland. ... The provinces (voivodeships) of Poland and all cities of more than 20,000 inhabitants. (1980, 1992), 2002, 2011, 2021, 2023 census/estimate. Administrative Division.
+Thought:Thought: I have the search results, now I need to extract the 10 biggest cities in Poland by population.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "10 largest cities in Poland by population"
+}
+```
+
+Observation: The biggest towns (e.g. Tarnowskie Góry, Rumia, Piaseczno) are larger than a number of cities. ... Below is the table of the most populated cities and towns in Poland. The table ranks cities by population based on data from the Central Statistical Office of Poland. [1] [2] Population at various dates Name Voivodeship 1 Jan 2022 1 Jan 2021 30 ... Population of the largest cities of Poland 2023. Published by. Adriana Sas, Jul 24, 2024. The largest city in Poland in terms of population was the capital, Warsaw, in 2023, with more than 1.86 ... Aug 8, 2024. This statistic shows the biggest cities in Poland in 2021. In 2021, approximately 1.86 million people lived in Warsaw, making it the biggest city in Poland. Read more. Poland: The ... 25 cities and 69 towns from 25,000 to 49,999. 221 towns from 10,000 do 24,999. 187 towns from 5,000 to 9,999. 220 towns from 2,500 to 4,999. 140 towns from 1,000 to 2,499. 9 towns below 1,000. Below is a table of the most populated cities and towns in Poland. The table ranks cities by population based on data from the Central Statistical Office ... Population statistics in maps and charts for provinces, counties, cities, towns, communes, localities and city districts in Poland. ... The provinces (voivodeships) of Poland and all cities of more than 20,000 inhabitants. (1980, 1992), 2002, 2011, 2021, 2023 census/estimate. Administrative Division.
+Thought:Thought: I need to extract the 10 biggest cities in Poland by population from the search results.
+
+Action:
+```
+{
+  "action": "Final Answer",
+  "action_input": "The 10 biggest cities in Poland by population are: Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, and Katowice."
+}
+```
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+Question: What are the average monthly rents for 1-bedroom and 3-bedroom apartments in each of the 10 biggest cities in Poland?
+
+Thought: I need to gather data from reliable sources to answer this question.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, and Katowice in PLN"
+}
+```
+
+Observation: 1.86M. The average cost of living in Warsaw is $1464, which is in the top 38% of the most expensive cities in the world, ranked 3564th out of 9294 in our global list and 1st out of 79 in Poland. The median after-tax salary is $1771, which is enough to cover living expenses for 1.2 months. Ranked 342nd (TOP 4%) in the list of best places to live ... Household data are provided by the US Census Bureau. Rent comparables in. Warsaw, IN. The monthly rent for an apartment in Warsaw, IN is $1,060. A 1-bedroom apartment in Warsaw, IN costs about $863 on average, while a 2-bedroom apartment is $1,183. Houses for rent in Warsaw, IN are more expensive, with an average monthly cost of $1,836. Feb 1, 2024. In December 2023, the average rental price of apartments of all sizes in Poland was the highest in the capital, Warsaw. Warsaw was the only city where the average rent for a flat of 0 ... Public Transport: A single bus or tram ticket costs 4.40 PLN. Regular travelers might find the monthly pass for 110.00 PLN more economical. This reliable service covers a broad area, making city navigation straightforward. Private Taxis: Taxis have an initial charge of 8.00 PLN, followed by around 3.00 PLN per kilometer. They tend to be pricier ... Warsaw, IN apartment rent ranges. About 16% of apartment rents in Warsaw, IN range between $1,501-$2,000. Meanwhile, apartments priced over > $2,000 represent 1% of apartments. Around 65% of Warsaw's apartments are in the $1,001-$1,500 price range. 17% of apartments are priced between $701-$1,000.
+Thought:Thought: The search results provided some information about Warsaw, but it's not exactly what I'm looking for. I need to gather data on the average monthly rent for 1-bedroom and 3-bedroom apartments in each of the 10 cities in Poland, in Polish złoty (PLN).
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Krakow, PLN"
+}
+```
+
+Observation: Discover 1 bed apartments available for rent in Kraków Old Town, Kraków, Poland. Find your next 1 bed apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near Kraków Old Town, Kraków, Poland. Monthly Krakow cost of living (Numbeo) Rent for 1-bedroom apartment in city center: Basic monthly utilities (heating, cooling, etc.): Internet: Meal at inexpensive restaurant: Domestic beer (0.5 L): Public transport ticket: Gym membership: 2,750.97 PLN. Monthly rent 1 room apartment 44 m² in Krakow, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. Find apartment for rent in Kraków quickly and easily 776 available apartments in Kraków right now All sizes and price ranges. Nice double bedroom with balcony in a 3-bedroom apartment, in Kazimierz. From 07 Feb 2025. PLN 2,000 / month. Trusted Landlord. Up to 2 people • 1 bedroom.
+Thought:Thought: I need to gather data on the average monthly rent for 1-bedroom and 3-bedroom apartments in each of the 10 cities in Poland, in Polish złoty (PLN).
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Lodz, PLN"
+}
+```
+
+(Please respond with the next observation)
+Observation: Page 3. Discover apartments available for rent in Łódź, Poland. Find your next apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near Łódź, Poland. Monthly rent 1 room apartment 34 m² in Lodz, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. Monthly rent 1 room apartment 35 m² in Lodz, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. The average cost of living in Lodz is $1161, which is close to the world's average cost of living, ranked 4541st out of 9294 in our global list and 10th out of 79 in Poland. Monthly rent Apartment 340 m² in Lodz, Poland.Catalog of offers for renting housing for a long-term on the Realting platform.
+Thought:Thought: I need to continue gathering data on the average monthly rent for 1-bedroom and 3-bedroom apartments in each of the 10 cities in Poland, in Polish złoty (PLN).
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Wroclaw, PLN"
+}
+```
+Please let me know the observation.
+Observation: The average cost of living in Wroclaw is $1310, which is close to the world's average cost of living, ranked 4152nd out of 9294 in our global list and 5th out of 79 in Poland. ... 🏙️ 1 bedroom apartment in city Center, 40 m2 or 430 ft2: $750. ... 🌐 Internet plan, 50 Mbps+ 1 month unlimited: $14. The price of a living room with kitchenette and a separate bedroom varies from PLN 3600 to 4200. And we also have spaces in Wrocław for demanding clients. The price for renting a penthouse apartment is approx. PLN 4900. What's important is that the said prices include utilities and administrative service. Discover more than 51 apartments for rent in Wrocław on Properstar. Find your dream home in Wrocław today. ... 2-bedroom apartment for rent in Wroclaw. Wrocław. Apartment • 2 bed. • 1 bath. • available now. $1,150. Add to favorites. ... 1 bedroom; 2 bedrooms; 3 bedrooms; 4+bedrooms; Popular criteria: New developments; DESCRIPTION: For rent a very nice, newly renovated three-room apartment (48 sqm) located on the 9th floor of a block at Oficerska street in a great location next to the SkyTower building, 300 m from the Powstańców Śląskich Roundabout. The location is perfectly …. Discover apartments available for rent in 50-304 Wrocław, Poland. Find your next apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near 50-304 Wrocław, Poland.
+Thought:I'll continue gathering data on the average monthly rent for 1-bedroom and 3-bedroom apartments in each of the 10 cities in Poland, in Polish złoty (PLN).
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Poznan, PLN"
+}
+```
+Please let me know the observation.
+Observation: The average cost of living in Poznan is $1151, which is close to the world's average cost of living, ranked 4565th out of 9294 in our global list and 11th out of 79 in Poland. ... 🏙️ 1 bedroom apartment in city Center, 40 m2 or 430 ft2: $579. ... 🌐 Internet plan, 50 Mbps+ 1 month unlimited: $14.6. Monthly rent 3 room apartment 51 m² in Poznan, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. Monthly rent 3 room apartment 65 m² in Poznan, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. Apartment location: Poznań, Poznań County, Poland. Listing details: 1 bedroom, 1 bathroom, 419 sq ft, elevator, dishwasher. Apartment for rent #123175092. Discover apartments available for rent in Garbary, 61-001 Poznań, Poland. Find your next apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near Garbary, 61-001 Poznań, Poland.
+Thought:I'll continue gathering data on the average monthly rent for 1-bedroom and 3-bedroom apartments in each of the 10 cities in Poland, in Polish złoty (PLN).
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Gdansk, PLN"
+}
+```
+Please let me know the observation.
+Observation: The average monthly rent for a one-bedroom apartment outside the city centre is PLN 3,076. The rent varies with the location, size, condition, and facilities of the apartment. ... with an average monthly cost of PLN 2,940.3 for a single person. Q.3 Is Gdansk a good place to live? Ans: Yes, Gdańsk is considered one of the top European cities ... The average cost of living in Gdansk is $1349, which is close to the world's average cost of living, ranked 4038th out of 9294 in our global list and 3rd out of 79 in Poland. ... 🏙️ 1 bedroom apartment in city Center, 40 m2 or 430 ft2: $806. ... 🌐 Internet plan, 50 Mbps+ 1 month unlimited: $14.4. 1. 43 m². 1/5. A modern, fully furnished 2-room apartment with a high standard of finishing, covering an ar…. €791. Monthly rent 1 room apartment 27 m² in Gdansk, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. Monthly rent 1 room apartment 32 m² in Gdansk, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. Rent/mo: 3,050 PLN; Number of rooms: 3 ; Get more info. 49 m2 apartment for rent in Gdańsk, Pomorskie, Stara Stocznia ... Statistics on the development of available apartments for rent in Gdańsk over the past month. ... Some of the most common types are 1-bedroom apartments, 2-bedroom apartments, and 3-bedroom apartments. There are also ...
+Thought:I'll continue gathering data on the average monthly rent for 1-bedroom and 3-bedroom apartments in each of the 10 cities in Poland, in Polish złoty (PLN).
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Szczecin, PLN"
+}
+```
+Please let me know the observation.
+Observation: Discover 3 bed apartments available for rent in Śródmieście, Szczecin, Poland. Find your next 3 bed apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near Śródmieście, Szczecin, Poland. The average cost of living in Szczecin is $1196, which is close to the world's average cost of living, ranked 4445th out of 9294 in our global list and 8th out of 79 in Poland. Discover apartments available for rent in 71-084 Szczecin, Poland. Find your next apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near 71-084 Szczecin, Poland. Discover 3 bed apartments available for rent in 70-261 Szczecin, Poland. Find your next 3 bed apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near 70-261 Szczecin, Poland. Available! 40.0 m² apartment for long-term stay located in SZCZECIN , ZACHODNIOPOMORSKIE , SZCZECIN with rental price 1600 PLN. Contact the landlord today!
+Thought:
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+Question: How can I organize the data into a table or list format?
+
+Thought: I need to gather the data on average monthly rent for 1-bedroom and 3-bedroom apartments in each of the 10 cities.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Warsaw, Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, and Katowice in PLN"
+}
+```
+
+Observation: The average cost of living in Warsaw is $1464, which is in the top 38% of the most expensive cities in the world, ranked 3564th out of 9294 in our global list and 1st out of 79 in Poland.. The median after-tax salary is $1771, which is enough to cover living expenses for 1.2 months.Ranked 342nd (TOP 4%) in the list of best places to live in the world and 1st best city to live in Poland. Household data are provided by the US Census Bureau. Rent comparables in. Warsaw, IN. The monthly rent for an apartment in Warsaw, IN is $1,060. A 1-bedroom apartment in Warsaw, IN costs about $863 on average, while a 2-bedroom apartment is $1,183. Houses for rent in Warsaw, IN are more expensive, with an average monthly cost of $1,836. Public Transport: A single bus or tram ticket costs 4.40 PLN. Regular travelers might find the monthly pass for 110.00 PLN more economical. This reliable service covers a broad area, making city navigation straightforward. Private Taxis: Taxis have an initial charge of 8.00 PLN, followed by around 3.00 PLN per kilometer. They tend to be pricier ... In 2023, the rent prices for a 2-room apartment of around 40-50m2 in selected cities in Poland were as presented below: City. Av. rent price (per month) Warsaw. 3 975 PLN / 916 EUR. Kraków. 2 888 PLN / 665 EUR. Gdańsk. Warsaw, IN apartment rent ranges. About 16% of apartment rents in Warsaw, IN range between $1,501-$2,000. Meanwhile, apartments priced over > $2,000 represent 1% of apartments. Around 65% of Warsaw's apartments are in the $1,001-$1,500 price range. 17% of apartments are priced between $701-$1,000.
+Thought:Thought: I need to extract the relevant data from the search results to organize the data into a table or list format.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Krakow, Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, and Katowice in PLN"
+}
+```
+
+
+Observation: The average cost of living in Krakow is $1380, which is close to the world's average cost of living, ranked 3934th out of 9294 in our global list and 2nd out of 79 in Poland. Monthly rent 3 room apartment 67 m² in Krakow, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. Monthly rent 3 room apartment 130 m² in Krakow, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. The most cities recorded a decrease in prices. Read more Average monthly apartment rental prices in selected cities in Poland from 2019 to 2023 (in zloty) The average cost of living in Poland is $1137, which is 1.09 times more expensive than the world's average. Compare cost of living by city. Poland ranked 60th out of 197 countries by cost of living and 42nd best country to live in.
+Thought:I need to extract the relevant data from the search results to organize the data into a table or list format.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Lodz, Wroclaw, Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, and Katowice in PLN"
+}
+```
+
+Observation: 671K. The average cost of living in Lodz is $1161, which is close to the world's average cost of living, ranked 4541st out of 9294 in our global list and 10th out of 79 in Poland. The median after-tax salary is $1247, which is enough to cover living expenses for 1.1 months. Ranked 1364th (TOP 15%) in the list of best places to live in the world ... Page 3. Discover apartments available for rent in Łódź, Poland. Find your next apartment for rent using our convenient search. Schedule a tour, apply online and secure your future apartment near Łódź, Poland. 38.4M. The cost of living in Poland is $1137, which is 1.09 times more expensive than the world average. Poland ranked 60th out of 197 countries by cost of living and the 42nd best country to live in. The average salary after taxes in Poland is $1368, which is enough to cover living expenses for 1.2 months. Discover best places to live in Poland. Feb 1, 2024. In December 2023, the average rental price of apartments of all sizes in Poland was the highest in the capital, Warsaw. Warsaw was the only city where the average rent for a flat of 0 ... How much does it cost to rent a house in US? Houses in US rent between $25 - $1,000,000 with a median rent of $2,100. 3. How has the rent in US changed in the last year? The median rent price in US for September 2024 is $2,100. This is $0 more than September 2023. 4.
+Thought:Thought: I need to extract the relevant data from the search results to organize the data into a table or list format.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Poznan, Gdansk, Szczecin, Bydgoszcz, Lublin, and Katowice in PLN"
+}
+```
+
+
+Observation: The average cost of living in Poznan is $1151, which is close to the world's average cost of living, ranked 4565th out of 9294 in our global list and 11th out of 79 in Poland.. The median after-tax salary is $1483, which is enough to cover living expenses for 1.3 months.Ranked 820th (TOP 9%) in the list of best places to live in the world and 5th best city to live in Poland. MONTHLY RENT: Bydgoszcz (all locations) Studio: €57,025: €335: 7.05%: 1-Bedroom: €79,886: €462: 6.94%: ... 2-bedroom, 3-bedroom, and 4-bedroom apartments in the largest cities of Poland. We used the local real estate listing website for both buying and renting prices to determine the average gross rental yields (Monthly Rent x 12 ... Monthly rent 3 room apartment 68 m² in Poznan, Poland.Catalog of offers for renting housing for a long-term on the Realting platform. ... Monthly rent 3 room apartment 68 m² in Poznan, Poland.Catalog of offers for renting housing for a long-term on the Realting platform.... UAE Turkey Greece Spain Portugal Cyprus Poland All countries. New ... May 14, 2024. The fourth quarter of 2023 brought increases in private rental rates in all surveyed Polish cities. The average apartment rent in Warsaw in this period amounted to 2,248 zloty, one ... 38.4M. The cost of living in Poland is $1137, which is 1.09 times more expensive than the world average. Poland ranked 60th out of 197 countries by cost of living and the 42nd best country to live in. The average salary after taxes in Poland is $1368, which is enough to cover living expenses for 1.2 months. Discover best places to live in Poland.
+Thought:I need to extract the relevant data from the search results to organize the data into a table or list format.
+
+Action:
+```
+{
+  "action": "Search",
+  "action_input": "average monthly rent for 1-bedroom and 3-bedroom apartments in Gdansk, Szczecin, Bydgoszcz, Lublin, and Katowice in PLN"
+}
+```
+
+
+Observation: Rent/mo: 3,050 PLN; Number of rooms: 3 ; Get more info. 49 m2 apartment for rent in Gdańsk, Pomorskie, Stara Stocznia ... Statistics on the development of available apartments for rent in Gdańsk over the past month. ... Some of the most common types are 1-bedroom apartments, 2-bedroom apartments, and 3-bedroom apartments. There are also ... In 2023, the rent prices for a 2-room apartment of around 40-50m2 in selected cities in Poland were as presented below: City. Av. rent price (per month) Warsaw. 3 975 PLN / 916 EUR. Kraków. 2 888 PLN / 665 EUR. Gdańsk. This page allows you to see current prices by city. You can see prices only for cities for which we have a full data set. If you want to see prices by country basis, use the Prices by Country tool. See bar chart of these data. 113 113 4,127 4,127. Chart: Apartment (1 bedroom) in City Centre, Rent Per Month. Login to have access to all our unique features. Sign Up Sign In. Home In 2023, the average annual rent per square foot increased by an estimated 5.42%; the average monthly rent, meanwhile, increased 7.95%. Compared to average rent per square foot, the average rent increased by an additional 2.53 percentage points (46.7%). The average rent per square foot grew 15.3% between 2020 ($18.79/ft 2) and 2021 ($21.67/ft 2).
+Thought:Thought: I need to extract the relevant data from the search results to organize the data into a table or list format.
+
+Action:
+```
+{
+  "action": "Calculator",
+  "action_input": "organize data into a table or list format"
+}
+```
+
+
+
+> Entering new LLMMathChain chain...
+organize data into a table or list formatIt seems like you want to organize the previous questions and answers into a table or list format. Here's one way to do it:
+
+**Table Format:**
+
+| Question | Math Problem | Answer |
+| --- | --- | --- |
+| 1 | 37593 * 67 | 2518731 |
+| 2 | 37593^(1/5) | 8.222831614237718 |
+
+**List Format:**
+
+* Question 1: 37593 * 67 = 2518731
+* Question 2: 37593^(1/5) = 8.222831614237718
+
+Let me know if you'd like me to organize the data in a different format!Traceback (most recent call last):
+  File "F:\PycharmProjects\langchain\plan_and_execute.py", line 109, in <module>
+    main()
+  File "F:\PycharmProjects\langchain\plan_and_execute.py", line 82, in main
+    plan_and_solve_result = agent.invoke(
+                            ^^^^^^^^^^^^^
+  File "F:\PycharmProjects\langchain\plan_and_execute.py", line 57, in invoke
+    return self.agent.invoke({"input": input_text})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 164, in invoke
+    raise e
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 154, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_experimental\plan_and_execute\agent_executor.py", line 56, in _call
+    response = self.executor.step(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_experimental\plan_and_execute\executors\base.py", line 37, in step
+    response = self.chain.run(**inputs, callbacks=callbacks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 180, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 603, in run
+    return self(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 180, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 381, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 164, in invoke
+    raise e
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 154, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1625, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1331, in _take_next_step
+    [
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1331, in <listcomp>
+    [
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1416, in _iter_next_step
+    yield self._perform_agent_action(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1438, in _perform_agent_action
+    observation = tool.run(
+                  ^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\tools\base.py", line 586, in run
+    raise error_to_raise
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\tools\base.py", line 555, in run
+    response = context.run(self._run, *tool_args, **tool_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\tools\simple.py", line 84, in _run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 180, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 598, in run
+    return self(args[0], callbacks=callbacks, tags=tags, metadata=metadata)[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 180, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 381, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 164, in invoke
+    raise e
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 154, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\llm_math\base.py", line 274, in _call
+    return self._process_llm_result(llm_output, _run_manager)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\llm_math\base.py", line 237, in _process_llm_result
+    raise ValueError(f"unknown format from LLM: {llm_output}")
+ValueError: unknown format from LLM: It seems like you want to organize the previous questions and answers into a table or list format. Here's one way to do it:
+
+**Table Format:**
+
+| Question | Math Problem | Answer |
+| --- | --- | --- |
+| 1 | 37593 * 67 | 2518731 |
+| 2 | 37593^(1/5) | 8.222831614237718 |
+
+**List Format:**
+
+* Question 1: 37593 * 67 = 2518731
+* Question 2: 37593^(1/5) = 8.222831614237718
+
+Let me know if you'd like me to organize the data in a different format!
+
+Process finished with exit code 1

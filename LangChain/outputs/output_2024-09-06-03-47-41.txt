@@ -1,0 +1,17 @@
+ChatGPT Turbo 1st Attempt - Calc
+
+Unfortunately, I was unable to find specific information on the average rental prices for 1-bedroom and 3-bedroom apartments in the 10 biggest cities in Poland for 2024. The data available was partial and did not cover all requested cities or apartment types. For accurate and detailed information, it may be necessary to consult local real estate agencies or specific rental market reports for Poland.
+
+```python
+import pandas as pd
+
+# Creating a DataFrame with missing data for cities and apartment types
+data = {
+    "City": ["Warsaw", "Krakow", "Lodz", "Wroclaw", "Poznan", "Gdansk", "Szczecin", "Bydgoszcz", "Lublin", "Katowice"],
+    "1-Bedroom Apartment Price": [None, None, None, None, None, None, None, None, None, None],
+    "3-Bedroom Apartment Price": [None, None, None, None, None, None, None, None, None, None]
+}
+
+df = pd.DataFrame(data)
+print(df)
+```

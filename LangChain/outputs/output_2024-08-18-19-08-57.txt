@@ -1,0 +1,17 @@
+The average rental prices for 1 and 3-bedroom apartments in Poland's 10 biggest
+cities are as follows: Warsaw: 3,975 PLN (916 EUR) for a 2-room apartment,
+Kraków: 2,888 PLN (665 EUR), Gdañsk: 2,600 PLN (616 EUR) for a 1-bedroom
+apartment outside the city centre. The prices have increased in the fourth
+quarter of 2023, with the average apartment rent in Warsaw amounting to 2,248
+zloty. Further price rises are expected in the following years, with 11,943 PLN
+(2,760 EUR/sq m) in 2024 and 12,934 PLN (3,030 EUR/sq m) in 2025.
+content="```python\nimport pandas as pd\n\ndata = {\n    'City': ['Warsaw',
+'Kraków', 'Gdañsk', 'Warsaw (2023)', 'Warsaw (2024)', 'Warsaw (2025)'],\n
+'Price (PLN)': [3975, 2888, 2600, 2248, 11943, 12934],\n    'Price (EUR)': [916,
+665, 616, 0, 2760, 3030]\n}\n\ndf = pd.DataFrame(data)\n\nprint(df)\n```"
+response_metadata={'token_usage': {'completion_tokens': 120, 'prompt_tokens':
+223, 'total_tokens': 343, 'completion_time': 0.16, 'prompt_time': 0.049521891,
+'queue_time': 0.0015035790000000049, 'total_time': 0.209521891}, 'model_name':
+'llama-3.1-8b-instant', 'system_fingerprint': 'fp_9cb648b966', 'finish_reason':
+'stop', 'logprobs': None} id='run-41f9443c-91a5-4a67-b1a9-40426e74e043-0'
+usage_metadata={'input_tokens': 223, 'output_tokens': 120, 'total_tokens': 343}

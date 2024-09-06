@@ -1,0 +1,264 @@
+C:\Users\Przemek\.conda\envs\metagpt\python.exe F:\PycharmProjects\metagptTests\main.py
+2024-06-29 19:50:24.961 | INFO     | metagpt.const:get_metagpt_package_root:29 - Package root set to F:\PycharmProjects\metagptTests
+2024-06-29 19:50:28.740 | INFO     | __main__:main:127 - Write a game 2048 game in python using pygame. User most importantly should be able to start the game, see his current score, use arrows keys to control tiles movement and see game over screen if he cant make any moves. Each color tile changes based on the number on tiles.
+2024-06-29 19:50:30.073 | WARNING  | metagpt.environment.base_env:publish_message:152 - Message no recipients: {"id":"045a842e9fe54864ab0233702680c6f6","content":"Write a game 2048 game in python using pygame. User most importantly should be able to start the game, see his current score, use arrows keys to control tiles movement and see game over screen if he cant make any moves. Each color tile changes based on the number on tiles.","role":"Human","cause_by":"metagpt.actions.add_requirement.UserRequirement","sent_from":"","send_to":["ProjectManager"]}
+2024-06-29 19:50:30.074 | INFO     | __main__:_act:59 - James(Senior Coder): to do WriteCode(WriteCode)
+```
+import pygame
+import random
+
+pygame.init()
+
+# Define some colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (128, 128, 128)
+
+# Set the width and height of the screen (width, height).
+size = (400, 400)
+screen = pygame.display.set_mode(size)
+
+pygame.display.set_caption("2048 Game")
+
+# Loop until the user clicks the close button.
+done = False
+
+# Used to manage how fast the screen updates.
+clock = pygame.time.Clock()
+
+# Set up the game grid
+grid_size = 4
+grid = [[0 for _ in range(grid_size)] for _ in range(grid_size)]
+score = 0
+
+# Set up the colors for the tiles
+tile_colors = {
+    0: GRAY,
+    2: (238, 228, 218),
+    4: (237, 224, 200),
+    8: (242, 177, 121),
+    16: (245, 149, 99),
+    32: (246, 124, 95),
+    64: (246, 94, 59),
+    128: (237, 207, 114),
+    256: (237, 204, 97),
+    512: (237, 200, 80),
+    1024: (237, 197, 63),
+    2048: (237, 194, 46)
+}
+
+def print_grid(grid):
+    for i in range(grid_size):
+        for j in range(grid_size):
+            print(grid[i][j], end=' ')
+        print()
+
+def is_game_over(grid):
+    for i in range(grid_size):
+        for j in range(grid_size):
+            if grid[i][j] == 0:
+                return False
+            if i < grid_size - 1 and grid[i][j] == grid[i + 1][j]:
+                return False
+            if j < grid_size - 1 and grid[i][j] == grid[i][j + 1]:
+                return False
+    return True
+
+def add_new_tile(grid):
+    empty_cells = [(i, j) for i in range(grid_size) for j in range(grid_size) if grid[i][j] == 0]
+    if empty_cells:
+        i, j = random.choice(empty_cells)
+        grid[i][j] = 2
+
+def move_up(grid):
+    for j in range(grid_size):
+        temp = []
+        for i in range(grid_size):
+            if grid[i][j] != 0:
+                temp.append(grid[i][j])
+        temp += [0] * (grid_size - len(temp))
+        for i in range(grid_size - 1):
+            if temp[i] == temp[i + 1]:
+                temp[i] *= 2
+                temp[i + 1] = 0
+        temp = [x for x in temp if x != 0]
+        temp += [0] * (grid_size - len(temp))
+        for i in range(grid_size):
+            grid[i][j] = temp[i]
+
+def move_down(grid):
+    for j in range(grid_size):
+        temp = []
+        for i in range(grid_size - 1, -1, -1):
+            if grid[i][j] != 0:
+                temp.append(grid[i][j])
+        temp += [0] * (grid_size - len(temp))
+        for i in range(grid_size - 1, 0, -1):
+            if temp[i] == temp[i - 1]:
+                temp[i] *= 2
+                temp[i - 1] = 0
+        temp = [x for x in temp if x != 0]
+        temp += [0] * (grid_size - len(temp))
+        for i in range(grid_size - 1, -1, -1):
+            grid[i][j] = temp[grid_size - 1 - i]
+
+def move_left(grid):
+    for i in range(grid_size):
+        temp = []
+        for j in range(grid_size):
+            if grid[i][j] != 0:
+                temp.append(grid[i][j])
+        temp += [0] * (grid_size - len(temp))
+        for j in range(grid_size - 1):
+            if temp[j] == temp[j + 1]:
+                temp[j] *= 2
+                temp[j + 1] = 0
+        temp = [x for x in temp if x != 0]
+        temp += [0] * (grid_size - len(temp))
+        for j in range(grid_size):
+            grid[i][j] = temp[j]
+
+def move_right(grid):
+    for i in range(grid_size):
+        temp = []
+        for j in range(grid_size - 1, -1, -1):
+            if grid[i][j] != 0:
+                temp.append(grid[i][j])
+        temp += [0] * (grid_size - len(temp))
+        for j in range(grid_size - 1, 0, -1):
+            if temp[j] == temp[j - 1]:
+                temp[j] *= 2
+                temp[j - 1] = 0
+        temp = [x for x in temp if x != 0]
+        temp += [0] * (grid_size - len(temp))
+        for j in range(grid_size - 1, -1, -1):
+            grid[i][j] = temp[grid_size - 1 - j]
+
+def draw_grid(grid):
+    for i in range(grid_size):
+        for j in range(grid_size):
+            pygame.draw.rect(screen, tile_colors[grid[i][j]], (j * 100, i * 100, 100, 100))
+            if grid[i][j] != 0:
+                font = pygame.font.Font(None, 36)
+                text = font.render(str(grid[i][j]), 1, BLACK)
+                textpos = text.get_rect(centerx=j * 100 + 50, centery=i * 100 + 50)
+                screen.blit(text, textpos)
+
+def draw_score(score):
+    font = pygame.font.Font(None, 36)
+    text = font.render("Score: " + str(score), 1, BLACK)
+    textpos = text.get_rect(centerx=200, centery=20)
+    screen.blit(text, textpos)
+
+def draw_game_over():
+    font = pygame.font.Font(None, 36)
+    text = font.render("Game Over!", 1, BLACK)
+    textpos = text.get_rect(centerx=200, centery=200)
+    screen.blit(text, textpos)
+
+# Initialize the game grid with two random tiles
+add_new_tile(grid)
+add_new_tile(grid)
+
+# -------- Main Program Loop --------
+while not done:
+    # --- Main event loop
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            done = True
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_UP:
+                move_up(grid)
+                add_new_tile(grid)
+            elif event.key == pygame.K_DOWN:
+                move_down(grid)
+                add_new_tile(grid)
+            elif event.key == pygame.K_LEFT:
+                move_left(grid)
+                add_new_tile(grid)
+            elif event.key == pygame.K_RIGHT:
+                move_right(grid)
+                add_new_tile(grid)
+
+    # --- Game logic should go here
+    if is_game_over(grid):
+        done = True
+
+    # --- Screen-clearing code goes here
+
+    # Here, we clear the screen to white. Don't put other drawing commands
+    # above this, or they will be erased with this command.
+
+    screen.fill(WHITE)
+
+    # --- Drawing code should go here
+    draw_grid(grid)
+    draw_score(score)
+    if is_game_over(grid):
+        draw_game_over()
+
+    # --- Go ahead and update the screen with what we've drawn.
+    pygame.display.flip()
+
+    # --- Limit to 60 frames per second
+    clock.tick(60)
+
+# Close the window and quit.
+pygame.quit()
+
+# Test case 1: Start the game and move up
+# grid = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+# add_new_tile(grid)
+# add_new_tile(grid)
+# print_grid(grid)
+# move_up(grid)
+# print_grid(grid)
+
+# Test case 2: Start the game and move down
+# grid = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+# add_new_tile(grid)
+# add_new_tile(grid)
+# print_grid(grid)
+# move_down(grid)
+# print_grid(grid)
+```
+Warning: model not found. Using cl100k_base encoding.
+2024-06-29 19:50:36.037 | WARNING  | metagpt.provider.openai_api:_calc_usage:244 - usage calculation failed: num_tokens_from_messages() is not implemented for model llama3-70b-8192. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+2024-06-29 19:50:36.038 | INFO     | __main__:_act:114 - Jessie(Senior Tester): to do WriteTest(WriteTest)
+```
+import pytest
+from your_module import move_up, move_down, move_left, move_right, is_game_over, add_new_tile
+
+def test_move_up():
+    grid = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [2, 2, 0, 0]]
+    move_up(grid)
+    assert grid == [[2, 2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+
+def test_move_down():
+    grid = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [2, 2, 0, 0]]
+    move_down(grid)
+    assert grid == [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [2, 2, 0, 0]]
+
+def test_move_left():
+    grid = [[0, 2, 2, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    move_left(grid)
+    assert grid == [[2, 2, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+
+def test_move_right():
+    grid = [[0, 0, 2, 2], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    move_right(grid)
+    assert grid == [[0, 0, 2, 2], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+
+def test_is_game_over():
+    grid = [[2, 4, 8, 16], [2, 4, 8, 16], [2, 4, 8, 16], [2, 4, 8, 16]]
+    assert is_game_over(grid) == True
+
+def test_add_new_tile():
+    grid = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    add_new_tile(grid)
+    assert any(2 in row for row in grid)
+```
+Warning: model not found. Using cl100k_base encoding.
+2024-06-29 19:50:38.765 | WARNING  | metagpt.provider.openai_api:_calc_usage:244 - usage calculation failed: num_tokens_from_messages() is not implemented for model llama3-70b-8192. See https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken for information on how messages are converted to tokens.
+
+Process finished with exit code 0

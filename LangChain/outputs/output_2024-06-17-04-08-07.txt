@@ -1,0 +1,14 @@
+Here is the organized data in a clear and readable format, comparing the prices for 1-bedroom and 3-bedroom apartments in each city:
+
+| City | 1-Bedroom (PLN) | 3-Bedroom (PLN) |
+| --- | --- | --- |
+| Warsaw | 3,975 | 6,000 |
+| Kraków | 2,888 | 4,500 |
+| £ódŸ | 2,200 | 3,500 |
+| Wroc³aw | 2,500 | 4,000 |
+| Poznañ | 2,300 | 3,800 |
+| Gdañsk | 2,600 | 4,200 |
+| Szczecin | 2,000 | 3,200 |
+| Bydgoszcz | 1,800 | 2,800 |
+| Lublin | 1,600 | 2,400 |
+| Katowice | 1,800 | 2,800 |

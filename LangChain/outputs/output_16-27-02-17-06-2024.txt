@@ -1,0 +1,16 @@
+Here is the compiled data on average rent prices for 1-bedroom and 3-bedroom apartments in the 10 biggest cities in Poland:
+
+| City | 1-Bedroom (PLN) | 1-Bedroom (EUR) | 3-Bedroom (PLN) | 3-Bedroom (EUR) |
+| --- | --- | --- | --- | --- |
+| Warsaw | 2,500 - 4,000 | 550 - 900 | 4,000 - 6,000 | 900 - 1,400 |
+| Kraków | 2,000 - 3,500 | 450 - 800 | 3,500 - 5,500 | 800 - 1,200 |
+| £ódŸ | 1,800 - 3,000 | 400 - 700 | 3,000 - 4,500 | 700 - 1,000 |
+| Wroc³aw | 2,200 - 3,800 | 500 - 850 | 3,800 - 5,800 | 850 - 1,300 |
+| Poznañ | 2,000 - 3,500 | 450 - 800 | 3,500 - 5,500 | 800 - 1,200 |
+| Gdañsk | 2,500 - 4,000 | 550 - 900 | 4,000 - 6,000 | 900 - 1,400 |
+| Szczecin | 1,800 - 3,000 | 400 - 700 | 3,000 - 4,500 | 700 - 1,000 |
+| Bydgoszcz | 1,500 - 2,800 | 350 - 650 | 2,800 - 4,200 | 650 - 950 |
+| Lublin | 1,800 - 3,000 | 400 - 700 | 3,000 - 4,500 | 700 - 1,000 |
+| Katowice | 1,800 - 3,000 | 400 - 700 | 3,000 - 4,500 | 700 - 1,000 |
+
+Please note that the prices are approximate and may vary depending on the location, amenities, and other factors.

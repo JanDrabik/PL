@@ -1,0 +1,120 @@
+C:\Users\Przemek\.conda\envs\langchain\python.exe F:\PycharmProjects\langchain\plan_and_execute.py 
+
+
+> Entering new AgentExecutor chain...
+Action:
+{
+  "action": "Search",
+  "action_input": "average rent prices for apartments in the 10 biggest cities in Poland in 2024"
+}
+
+
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+Action:
+{
+  "action": "Search",
+  "action_input": "average rent prices for 1-bedroom apartments in the 10 biggest cities in Poland in 2024"
+}
+
+
+
+> Finished chain.
+
+
+> Entering new AgentExecutor chain...
+Thought: We have gathered data on average rent prices for apartments in the 10 biggest cities in Poland in 2024, and we need to convert the prices to Polish Złoty (PLN) currency.
+
+Action:
+```
+{
+  "action": "Calculator",
+  "action_input": "1 USD to PLN"
+}
+```
+
+
+> Entering new LLMMathChain chain...
+1 USD to PLNThe exchange rate for 1 USD to PLN is approximately 4.35.Traceback (most recent call last):
+  File "F:\PycharmProjects\langchain\plan_and_execute.py", line 108, in <module>
+    main()
+  File "F:\PycharmProjects\langchain\plan_and_execute.py", line 81, in main
+    prompt_value = agent.invoke(
+                   ^^^^^^^^^^^^^
+  File "F:\PycharmProjects\langchain\plan_and_execute.py", line 56, in invoke
+    return self.agent.invoke({"input": input_text})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 164, in invoke
+    raise e
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 154, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_experimental\plan_and_execute\agent_executor.py", line 56, in _call
+    response = self.executor.step(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_experimental\plan_and_execute\executors\base.py", line 37, in step
+    response = self.chain.run(**inputs, callbacks=callbacks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 170, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 603, in run
+    return self(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 170, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 381, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 164, in invoke
+    raise e
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 154, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1608, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1314, in _take_next_step
+    [
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1314, in <listcomp>
+    [
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1399, in _iter_next_step
+    yield self._perform_agent_action(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\agents\agent.py", line 1421, in _perform_agent_action
+    observation = tool.run(
+                  ^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\tools\base.py", line 585, in run
+    raise error_to_raise
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\tools\base.py", line 554, in run
+    response = context.run(self._run, *tool_args, **tool_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\tools\simple.py", line 84, in _run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 170, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 598, in run
+    return self(args[0], callbacks=callbacks, tags=tags, metadata=metadata)[
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain_core\_api\deprecation.py", line 170, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 381, in __call__
+    return self.invoke(
+           ^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 164, in invoke
+    raise e
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\base.py", line 154, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\llm_math\base.py", line 157, in _call
+    return self._process_llm_result(llm_output, _run_manager)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Przemek\.conda\envs\langchain\Lib\site-packages\langchain\chains\llm_math\base.py", line 120, in _process_llm_result
+    raise ValueError(f"unknown format from LLM: {llm_output}")
+ValueError: unknown format from LLM: The exchange rate for 1 USD to PLN is approximately 4.35.
+
+Process finished with exit code 1

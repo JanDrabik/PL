@@ -1,0 +1,15 @@
+Here is the list of average rent prices for a 1-bedroom apartment in the 10 biggest cities in Poland:
+
+| City | Average Rent Price (PLN) | Average Rent Price (EUR) |
+| --- | --- | --- |
+| Warsaw | 2,248 | 514 |
+| Krakow | 2,600 | 599 |
+| Lodz | (no data) | (no data) |
+| Wroclaw | (no data) | (no data) |
+| Poznan | (no data) | (no data) |
+| Gdansk | 2,600 | 599 |
+| Szczecin | (no data) | (no data) |
+| Bydgoszcz | (no data) | (no data) |
+| Lublin | (no data) | (no data) |
+| Katowice | (no data) | (no data) |
+| Bialystok | (no data) | (no data) |

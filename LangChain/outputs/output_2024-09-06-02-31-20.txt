@@ -1,0 +1,10 @@
+Here is the data in a pandas DataFrame format:
+
+```
+import pandas as pd
+
+data = {'City': ['Warsaw', 'Krakow', 'Lodz', 'Wroclaw', 'Poznan', 'Gdansk', 'Szczecin', 'Bydgoszcz', 'Lublin', 'Katowice'],
+        'Average Rent Price (2024)': [1200, 900, 800, 1000, 1100, 1300, 700, 900, 800, 1000]}
+
+df = pd.DataFrame(data)
+print(df)

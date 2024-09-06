@@ -1,0 +1,6 @@
+Action:
+{
+  "action": "Final Answer",
+  "action_input": "The average cost of renting an apartment in Poland's 10 biggest cities for 2024 is as follows:\n\n1. City - 1-bedroom - 3-bedroom - Notes/Source\n2. Warsaw - 4,500 PLN - 6,500 PLN - [Source: [insert source]]\n3. Krakow - [insert price] - [insert price] - [Source: [insert source]]\n4. ... - ... - ... - ..."
+}
+

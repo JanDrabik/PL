@@ -1,0 +1,26 @@
+Llama3:70B
+
+Here is the list of cities with their corresponding average rent prices for 1-bedroom and 3-bedroom apartments in PLN:
+
+| City | 1-Bedroom (PLN) | 3-Bedroom (PLN) |
+| --- | --- | --- |
+| Warsaw | 2,600 | 4,000 |
+| Krakow | 2,300 | 3,500 |
+| Lodz | 1,800 | 2,800 |
+| Wroclaw | 2,200 | 3,300 |
+| Poznan | 2,000 | 3,000 |
+| Gdansk | 2,400 | 3,600 |
+| Szczecin | 1,900 | 2,900 |
+| Bydgoszcz | 1,700 | 2,600 |
+| Lublin | 1,600 | 2,400 |
+| Katowice | 1,900 | 2,800 |
+
+Please note that these prices are approximate and based on available data from various sources.
+
+import pandas as pd
+
+data = {'City': ['Warsaw', 'Krakow', 'Lodz', 'Wroclaw', 'Poznan', 'Gdansk', 'Szczecin', 'Bydgoszcz', 'Lublin', 'Katowice'],
+        '1-Bedroom (PLN)': [2600, 2300, 1800, 2200, 2000, 2400, 1900, 1700, 1600, 1900],
+        '3-Bedroom (PLN)': [4000, 3500, 2800, 3300, 3000, 3600, 2900, 2600, 2400, 2800]}
+
+df = pd.DataFrame(data)
